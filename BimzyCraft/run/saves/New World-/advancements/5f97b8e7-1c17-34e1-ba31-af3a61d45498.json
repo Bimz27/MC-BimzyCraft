@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "taiga_hills": "2018-06-23 18:05:59 +1000"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2018-06-23 18:05:59 +1000"
+    },
+    "done": true
+  }
+}

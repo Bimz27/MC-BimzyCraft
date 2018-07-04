@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "R R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "bcm:ruby"
+        },
+    },
+    
+    "result":
+    {
+        "item": "bcm:ruby_helmet",
+        "count": 1
+    }
+}

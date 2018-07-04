@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "bcm:topaz_ore_block" }
+    }
+}

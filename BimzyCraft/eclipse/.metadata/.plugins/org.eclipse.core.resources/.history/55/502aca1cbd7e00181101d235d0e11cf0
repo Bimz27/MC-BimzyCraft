@@ -1,0 +1,5 @@
+package com.bimzy.bimzycraft.util.handlers;
+
+public class EnumHandler {
+
+}

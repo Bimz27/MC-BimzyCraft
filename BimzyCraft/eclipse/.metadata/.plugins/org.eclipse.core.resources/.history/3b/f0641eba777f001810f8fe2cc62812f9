@@ -1,0 +1,5 @@
+package com.bimzy.bimzycraft.world.gen;
+
+public class WorldGenCustomOres {
+
+}

@@ -1,0 +1,23 @@
+package com.bimzy.bimzycraft.items.tools;
+
+import com.bimzy.bimzycraft.Main;
+import com.bimzy.bimzycraft.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class ToolSword {
+
+	public ItemBase(String name)
+	{
+		setUnlocalizedName(name);
+		setRegistryName(name);
+		setCreativeTab(CreativeTabs.MISC);
+		
+		ModItems.ITEMS.add(this);
+	}
+	
+	@Override
+	public void registerModels() {
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
+	}
+}
