@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "bcm:topaz_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:topaz",
+        "count": 9
+    }   
+}

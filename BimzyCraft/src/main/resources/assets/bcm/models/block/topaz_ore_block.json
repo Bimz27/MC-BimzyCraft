@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "bcm:blocks/topaz_ore_block"
+   }
+}
