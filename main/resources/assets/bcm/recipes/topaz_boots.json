@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T T",
+        "T T"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "bcm:topaz"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:topaz_boots",
+        "count": 1
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "T T",
+        "TTT",
+        "TTT"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "bcm:topaz"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:topaz_chestplate",
+        "count": 1
+    }
+}

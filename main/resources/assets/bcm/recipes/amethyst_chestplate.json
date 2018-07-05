@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A A",
+        "AAA",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "bcm:amethyst"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:amethyst_chestplate",
+        "count": 1
+    }
+}

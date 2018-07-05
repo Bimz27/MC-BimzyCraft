@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "TTT",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "bcm:topaz"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:topaz_pickaxe",
+        "count": 1
+    }
+}

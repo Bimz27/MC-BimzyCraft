@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "A A",
+        "A A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "bcm:amethyst"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:amethyst_leggings",
+        "count": 1
+    }
+}

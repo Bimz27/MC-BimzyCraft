@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AA",
+        "AS",
+        " S"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "bcm:amethyst"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:amethyst_axe",
+        "count": 1
+    }
+}
