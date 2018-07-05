@@ -1,7 +1,0 @@
-package com.bimzy.bimzycraft.util.interfaces;
-
-public class IMetaName {
-	
-	public String getSpecialName(ItemStack stack);
-
-}
