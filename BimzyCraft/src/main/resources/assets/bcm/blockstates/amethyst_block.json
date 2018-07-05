@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "bcm:amethyst_block" }
+    }
+}

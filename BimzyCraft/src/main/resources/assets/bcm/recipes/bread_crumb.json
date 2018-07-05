@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:bread"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:bread_crumb",
+        "count": 64
+    }
+}
