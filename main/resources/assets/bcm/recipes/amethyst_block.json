@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "AAA",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "bcm:amethsyt"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:amethyst_block",
+        "count": 1
+    }
+}
