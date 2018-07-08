@@ -27,6 +27,6 @@ public class TopazOreBlock extends BlockBase {
 	
 	public int quantityDropped(IBlockState state, int fortune, Random random) 
 	{
-		return random.nextInt(3) + 1;
+		return random.nextInt(1) + 1;
 	}
 }

@@ -31,6 +31,7 @@ public class Main {
 	@EventHandler
 	public static void Init(FMLInitializationEvent event)
 	{
+		RegistryHandler.InitRegistries();
 		ModRecipes.init();
 	}
 	

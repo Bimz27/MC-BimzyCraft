@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "TSR",
+        "S S",
+        "ASD"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "bcm:ruby_block"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond_block"
+        },
+        "A":
+        {
+            "item": "bcm:amethyst_block"
+        },
+        "T":
+        {
+            "item": "bcm:topaz_block"
+        },
+        "S":
+        {
+            "item": "bcm:steel_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:crusher_block",
+        "count": 1
+    }
+}

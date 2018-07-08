@@ -1,14 +1,14 @@
 [
 {
-  "modid": "BCM",
-  "name": "BimzyCraft",
-  "description": "Gems~ - Taric",
-  "version": "1.2",
-  "mcversion": "1.12.2",
-  "url": "https://github.com/Bimz27/MC-BimzyCraft",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
   "updateUrl": "",
-  "authorList": ["Bimzy","Dez"],
-  "credits": "Us cool guys",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

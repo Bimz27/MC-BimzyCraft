@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "burning=false,facing=north": { "model": "bcm:crusher_block" },
+        "burning=false,facing=east": { "model": "bcm:crusher_block", "y": 90 },
+        "burning=false,facing=south": { "model": "bcm:crusher_block", "y": 180 },
+        "burning=false,facing=west": { "model": "bcm:crusher_block", "y": 270 },
+        "burning=true,facing=north": { "model": "bcm:crusher_active_block" },
+        "burning=true,facing=east": { "model": "bcm:crusher_active_block", "y": 90 },
+        "burning=true,facing=south": { "model": "bcm:crusher_active_block", "y": 180 },
+        "burning=true,facing=west": { "model": "bcm:crusher_active_block", "y": 270 }
+    }
+}

@@ -29,21 +29,29 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//materials
-	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 14, 
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+	public static final ToolMaterial MATERIAL_OMNI = EnumHelper.addToolMaterial("material_omni", 3, 2000, 8.0F, 3.f, 10);
+	public static final ArmorMaterial ARMOR_MATERIAL_OMNI = EnumHelper.addArmorMaterial("armor_material_omni", Reference.MOD_ID + ":omni", 22, 
+			new int[] {8, 11, 13, 8}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
 	public static final ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_AMETHYST = EnumHelper.addArmorMaterial("armor_material_amethyst", Reference.MOD_ID + ":amethyst", 14, 
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_AMETHYST = EnumHelper.addArmorMaterial("armor_material_amethyst", Reference.MOD_ID + ":omni", 20, 
+			new int[] {7, 10, 12, 6}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 2000, 8.0F, 3.f, 10);
+	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 18, 
+			new int[] {5, 9, 11, 5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
 	public static final ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_TOPAZ = EnumHelper.addArmorMaterial("armor_material_topaz", Reference.MOD_ID + ":topaz", 14, 
-			new int[] {3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_TOPAZ = EnumHelper.addArmorMaterial("armor_material_topaz", Reference.MOD_ID + ":topaz", 16, 
+			new int[] {4, 7, 10, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
 	
 	//items
 	public static final Item BREAD_CRUMB = new ItemBase("bread_crumb");
+	public static final Item DIAMOND_DUST = new ItemBase("diamond_dust");
 	public static final Item RUBY = new ItemBase("ruby");
+	public static final Item RUBY_DUST = new ItemBase("ruby_dust");
 	public static final Item TOPAZ = new ItemBase("topaz");
+	public static final Item TOPAZ_DUST = new ItemBase("topaz_dust");
 	public static final Item AMETHYST = new ItemBase("amethyst");
+	public static final Item AMETHYST_DUST = new ItemBase("amethyst_dust");
+	public static final Item OMNI_GEM = new ItemBase("omni_gem");
 	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
 	
 	//tools
@@ -62,6 +70,11 @@ public class ModItems {
 	public static final ItemPickaxe TOPAZ_PICKAXE = new ToolPickaxe("topaz_pickaxe", MATERIAL_TOPAZ);
 	public static final ItemAxe TOPAZ_AXE = new ToolAxe("topaz_axe", MATERIAL_TOPAZ);
 	public static final ItemHoe TOPAZ_HOE = new ToolHoe("topaz_hoe", MATERIAL_TOPAZ);
+	public static final ItemSword OMNI_SWORD = new ToolSword("omni_sword", MATERIAL_OMNI);
+	public static final ItemSpade OMNI_SPADE = new ToolSpade("omni_shovel", MATERIAL_OMNI);
+	public static final ItemPickaxe OMNI_PICKAXE = new ToolPickaxe("omni_pickaxe", MATERIAL_OMNI);
+	public static final ItemAxe OMNI_AXE = new ToolAxe("omni_axe", MATERIAL_OMNI);
+	public static final ItemHoe OMNI_HOE = new ToolHoe("omni_hoe", MATERIAL_OMNI);
 	
 	//armor
 	public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);
@@ -76,5 +89,9 @@ public class ModItems {
 	public static final Item TOPAZ_CHESTPLATE = new ArmorBase("topaz_chestplate", ARMOR_MATERIAL_TOPAZ, 1, EntityEquipmentSlot.CHEST);
 	public static final Item TOPAZ_LEGGINGS = new ArmorBase("topaz_leggings", ARMOR_MATERIAL_TOPAZ, 2, EntityEquipmentSlot.LEGS);
 	public static final Item TOPAZ_BOOTS = new ArmorBase("topaz_boots", ARMOR_MATERIAL_TOPAZ, 1, EntityEquipmentSlot.FEET);
+	public static final Item OMNI_HELMET = new ArmorBase("omni_helmet", ARMOR_MATERIAL_OMNI, 1, EntityEquipmentSlot.HEAD);
+	public static final Item OMNI_CHESTPLATE = new ArmorBase("omni_chestplate", ARMOR_MATERIAL_OMNI, 1, EntityEquipmentSlot.CHEST);
+	public static final Item OMNI_LEGGINGS = new ArmorBase("omni_leggings", ARMOR_MATERIAL_OMNI, 2, EntityEquipmentSlot.LEGS);
+	public static final Item OMNI_BOOTS = new ArmorBase("omni_boots", ARMOR_MATERIAL_OMNI, 1, EntityEquipmentSlot.FEET);
 	
 } 

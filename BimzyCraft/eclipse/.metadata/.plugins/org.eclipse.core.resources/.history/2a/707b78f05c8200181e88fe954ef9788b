@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "bcm:ruby"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "A":
+        {
+            "item": "bcm:ruby"
+        },
+        "T":
+        {
+            "item": "bcm:ruby"
+        },
+        "S":
+        {
+            "item": "bcm:ruby"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:ruby_block",
+        "count": 1
+    }
+}

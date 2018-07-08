@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OO",
+        "OS",
+        " S"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "bcm:omni_gem"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:omni_axe",
+        "count": 1
+    }
+}

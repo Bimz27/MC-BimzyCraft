@@ -15,12 +15,13 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class WorldGenCustomOres implements IWorldGenerator {
 	
 	private WorldGenerator ruby_ore_block, amethyst_ore_block, topaz_ore_block;
+	private Random random;
 	
 	public WorldGenCustomOres()
 	{
-		ruby_ore_block = new WorldGenMinable(ModBlocks.RUBY_ORE_BLOCK.getDefaultState(), 9);
-		amethyst_ore_block = new WorldGenMinable(ModBlocks.AMETHYST_ORE_BLOCK.getDefaultState(), 9);
-		topaz_ore_block = new WorldGenMinable(ModBlocks.TOPAZ_ORE_BLOCK.getDefaultState(), 9);
+		ruby_ore_block = new WorldGenMinable(ModBlocks.RUBY_ORE_BLOCK.getDefaultState(), 5);
+		amethyst_ore_block = new WorldGenMinable(ModBlocks.AMETHYST_ORE_BLOCK.getDefaultState(), 5);
+		topaz_ore_block = new WorldGenMinable(ModBlocks.TOPAZ_ORE_BLOCK.getDefaultState(), 5);
 	}
 	
 	@Override
@@ -31,9 +32,9 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			case -1://nether
 				break;
 			case 0://overworld
-				runGenerator(ruby_ore_block, world, random, chunkX, chunkZ, 50, 0, 100);
-				runGenerator(amethyst_ore_block, world, random, chunkX, chunkZ, 50, 0, 100);
-				runGenerator(topaz_ore_block, world, random, chunkX, chunkZ, 50, 0, 100);
+				runGenerator(amethyst_ore_block, world, random, chunkX, chunkZ, 15, 0, 16);
+				runGenerator(ruby_ore_block, world, random, chunkX, chunkZ, 20, 4, 20);
+				runGenerator(topaz_ore_block, world, random, chunkX, chunkZ, 25, 8, 24);
 				break;
 			case 1://end
 				break;

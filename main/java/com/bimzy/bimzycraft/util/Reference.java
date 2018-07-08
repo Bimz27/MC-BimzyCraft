@@ -9,4 +9,6 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS = "com.bimzy.bimzycraft.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.bimzy.bimzycraft.proxy.CommonProxy";
 	
+	public static final int GUI_CRUSHER = 0;
+	
 }

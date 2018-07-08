@@ -1,7 +1,5 @@
 package com.bimzy.bimzycraft.blocks;
 
-import java.util.ArrayList;
-
 import com.bimzy.bimzycraft.Main;
 import com.bimzy.bimzycraft.init.ModBlocks;
 import com.bimzy.bimzycraft.init.ModItems;
@@ -12,8 +10,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class BlockBase extends Block implements IHasModel {
 

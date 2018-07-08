@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "TR",
+        "AD"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "bcm:amethyst_dust"
+        },
+        "R":
+        {
+            "item": "bcm:ruby_dust"
+        },
+        "T":
+        {
+            "item": "bcm:topaz_dust"
+        },
+        "D":
+        {
+            "item": "bcm:diamond_dust"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:omni_gem",
+        "count": 1
+    }
+}

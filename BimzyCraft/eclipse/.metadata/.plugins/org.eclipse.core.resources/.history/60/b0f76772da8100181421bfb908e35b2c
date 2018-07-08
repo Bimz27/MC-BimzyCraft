@@ -1,0 +1,9 @@
+package com.bimzy.bimzycraft.util.handlers;
+
+public class TileEntityHandler {
+
+	public static void registerTileEntities()
+	{
+		
+	}
+}

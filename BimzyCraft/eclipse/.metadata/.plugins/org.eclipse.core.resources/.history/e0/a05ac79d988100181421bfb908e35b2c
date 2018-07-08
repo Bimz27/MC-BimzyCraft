@@ -1,0 +1,24 @@
+package com.bimzy.bimzycraft.blocks;
+
+import net.minecraft.block.ITileEntityProvider;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
+
+public class CrusherBlock extends BlockBase implements ITileEntityProvider
+{
+	public static final PropertyDirection FACING = BlockHorizontal.FACING;
+	
+	public CrusherBlock(String name, Material material) 
+	{
+		super(name, material);
+		
+		setSoundType(SoundType.METAL);
+		setHardness(6.0f);
+		setResistance(15.0f);
+	}
+	
+}

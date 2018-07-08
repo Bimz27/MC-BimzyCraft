@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "bcm:crusher_block" }
+    }
+}
