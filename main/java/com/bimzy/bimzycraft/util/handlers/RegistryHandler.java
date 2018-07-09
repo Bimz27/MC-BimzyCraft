@@ -1,6 +1,7 @@
 package com.bimzy.bimzycraft.util.handlers;
 
 import com.bimzy.bimzycraft.Main;
+import com.bimzy.bimzycraft.init.EntityInit;
 import com.bimzy.bimzycraft.init.ModBlocks;
 import com.bimzy.bimzycraft.init.ModItems;
 import com.bimzy.bimzycraft.util.interfaces.IHasModel;
@@ -51,13 +52,16 @@ public class RegistryHandler {
 		}
 	}
 	
+	public static void preInitRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		
+		EntityInit.registerEntities();
+		RenderHandler.registerEntityRenders();
+	}
+	
 	public static void InitRegistries()
 	{
 		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
-	}
-	
-	public static void otherRegistries()
-	{
-		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 	}
 }

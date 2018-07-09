@@ -32,9 +32,9 @@ public class WorldGenCustomOres implements IWorldGenerator {
 			case -1://nether
 				break;
 			case 0://overworld
-				runGenerator(amethyst_ore_block, world, random, chunkX, chunkZ, 15, 0, 16);
-				runGenerator(ruby_ore_block, world, random, chunkX, chunkZ, 20, 4, 20);
-				runGenerator(topaz_ore_block, world, random, chunkX, chunkZ, 25, 8, 24);
+				runGenerator(amethyst_ore_block, world, random, chunkX, chunkZ, 3, 0, 16);
+				runGenerator(ruby_ore_block, world, random, chunkX, chunkZ, 4, 4, 20);
+				runGenerator(topaz_ore_block, world, random, chunkX, chunkZ, 5, 8, 24);
 				break;
 			case 1://end
 				break;

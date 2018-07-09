@@ -11,4 +11,6 @@ public class Reference {
 	
 	public static final int GUI_CRUSHER = 0;
 	
+	public static final int ENTITY_UNDEAD_CHICKEN = 120;
+	
 }
