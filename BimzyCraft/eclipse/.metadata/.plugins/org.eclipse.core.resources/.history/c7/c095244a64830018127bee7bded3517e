@@ -1,0 +1,14 @@
+package com.bimzy.bimzycraft.util.handlers;
+
+import com.bimzy.bimzycraft.entity.EntityUndeadChicken;
+
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+
+public class RenderHandler {
+	
+	public static void registerEntityRenders()
+	{
+		RenderingRegistry.registerEntityRenderingHandler(EntityUndeadChicken.class, renderFactory);
+	}
+	
+}

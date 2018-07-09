@@ -1,0 +1,8 @@
+package com.bimzy.bimzycraft.entity.render;
+
+import net.minecraft.client.renderer.entity.RenderLiving;
+
+public class RenderUndeadChicken extends RenderLiving<EntityUndeadChicken> 
+{
+	
+}

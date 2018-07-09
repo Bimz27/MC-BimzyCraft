@@ -1,0 +1,25 @@
+package com.bimzy.bimzycraft.entity;
+
+import net.minecraft.entity.passive.EntityChicken;
+import net.minecraft.world.World;
+
+public class EntityUndeadChicken extends EntityChicken {
+
+	public EntityUndeadChicken(World worldIn) {
+		super(worldIn);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	protected void entityInit()
+	{
+		
+	}
+	
+	@Override
+	protected void readEntityFromNBT()
+	{
+		
+	}
+	
+}

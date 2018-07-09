@@ -1,0 +1,5 @@
+package com.bimzy.bimzycraft.entity.render;
+
+public class RenderUndeadChicken {
+
+}
