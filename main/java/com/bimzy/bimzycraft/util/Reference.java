@@ -10,7 +10,8 @@ public class Reference {
 	public static final String COMMON_PROXY_CLASS = "com.bimzy.bimzycraft.proxy.CommonProxy";
 	
 	public static final int GUI_CRUSHER = 0;
+	public static final int GUI_ALCHEMIST_TABLE = 1;
 	
 	public static final int ENTITY_UNDEAD_CHICKEN = 120;
-	
+	public static final int ENTITY_EARTH_GOLEM = 121;
 }

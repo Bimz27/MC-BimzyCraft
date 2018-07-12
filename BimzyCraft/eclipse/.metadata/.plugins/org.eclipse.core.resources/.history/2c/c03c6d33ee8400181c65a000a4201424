@@ -1,0 +1,15 @@
+package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
+
+import com.bimzy.bimzycraft.blocks.BlockBase;
+
+import net.minecraft.block.material.Material;
+
+public class AlchemistTableBlock extends BlockBase
+{
+	ContainerAlchemistTable
+	
+	public AlchemistTableBlock(String name, Material material) {
+		super(name, material);
+		
+	}
+}

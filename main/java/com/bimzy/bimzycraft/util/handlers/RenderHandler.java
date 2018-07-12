@@ -1,6 +1,8 @@
 package com.bimzy.bimzycraft.util.handlers;
 
+import com.bimzy.bimzycraft.entity.EntityEarthGolem;
 import com.bimzy.bimzycraft.entity.EntityUndeadChicken;
+import com.bimzy.bimzycraft.entity.render.RenderEarthGolem;
 import com.bimzy.bimzycraft.entity.render.RenderUndeadChicken;
 
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -18,6 +20,15 @@ public class RenderHandler {
 			public Render<? super EntityUndeadChicken> createRenderFor(RenderManager manager)
 			{
 				return new RenderUndeadChicken(manager);
+			}
+		});
+		
+		RenderingRegistry.registerEntityRenderingHandler(EntityEarthGolem.class, new IRenderFactory<EntityEarthGolem>()
+		{
+			@Override
+			public Render<? super EntityEarthGolem> createRenderFor(RenderManager manager)
+			{
+				return new RenderEarthGolem(manager);
 			}
 		});
 	}

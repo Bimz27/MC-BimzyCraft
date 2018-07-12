@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "bcm:alchemist_table_block" }
+    }
+}

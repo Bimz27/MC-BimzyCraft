@@ -10,7 +10,8 @@ import com.bimzy.bimzycraft.blocks.RubyOreBlock;
 import com.bimzy.bimzycraft.blocks.SteelBlock;
 import com.bimzy.bimzycraft.blocks.TopazBlock;
 import com.bimzy.bimzycraft.blocks.TopazOreBlock;
-import com.bimzy.bimzycraft.blocks.interactable.CrusherBlock;
+import com.bimzy.bimzycraft.blocks.interactable.alchemisttable.AlchemistTableBlock;
+import com.bimzy.bimzycraft.blocks.interactable.crusher.CrusherBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -29,4 +30,5 @@ public class ModBlocks {
 	
 	//custom item blocks
 	public static final Block CRUSHER_BLOCK = new CrusherBlock("crusher_block", Material.IRON);
+	public static final Block ALCHEMIST_TABLE_BLOCK = new AlchemistTableBlock("alchemist_table_block", Material.IRON);
 }

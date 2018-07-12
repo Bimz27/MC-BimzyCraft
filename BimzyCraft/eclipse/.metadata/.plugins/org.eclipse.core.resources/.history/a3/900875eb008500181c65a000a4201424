@@ -1,0 +1,14 @@
+package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
+
+import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.inventory.ContainerWorkbench;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+public class ContainerAlchemistTable extends ContainerWorkbench
+{	
+	public ContainerAlchemistTable(InventoryPlayer playerInventory, TileEntityAlchemistTable tileentity)
+    {
+		super(playerInventory, tileentity);
+    }
+}

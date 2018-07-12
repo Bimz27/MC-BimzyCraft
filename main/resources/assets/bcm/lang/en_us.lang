@@ -29,6 +29,8 @@ item.omni_pickaxe.name=Omni Pickaxe
 item.omni_axe.name=Omni Axe
 item.omni_hoe.name=Omni Hoe
 item.steel_ingot.name=Steel Ingot
+item.mob_slime.name=Mob Slime
+item.catalyst.name=Catalyst
 
 //Armor
 item.ruby_helmet.name=Ruby Helmet
@@ -50,10 +52,15 @@ item.omni_boots.name=Omni Boots
 
 //Blocks
 tile.ruby_block.name=Ruby Block
-tile.ruby_ore_block.name=Ruby Ore Block
+tile.ruby_ore_block.name=Ruby Ore
 tile.topaz_block.name=Topaz Block
-tile.topaz_ore_block.name=Topaz Ore Block
+tile.topaz_ore_block.name=Topaz Ore
 tile.amethyst_block.name=Amethyst Block
-tile.amethyst_ore_block.name=Amethyst Ore Block
+tile.amethyst_ore_block.name=Amethyst Ore
 tile.steel_block.name=Steel Block
-tile.crusher_block.name=Crusher Block
+tile.crusher_block.name=Crusher
+tile.alchemist_table_block.name=Alchemist's Table
+
+//Entities
+entity.undead_chicken.name=Undead Chicken
+entity.earth_golem.name=Earth Golem

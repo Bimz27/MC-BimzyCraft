@@ -29,18 +29,18 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//materials
-	public static final ToolMaterial MATERIAL_OMNI = EnumHelper.addToolMaterial("material_omni", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_OMNI = EnumHelper.addArmorMaterial("armor_material_omni", Reference.MOD_ID + ":omni", 22, 
-			new int[] {8, 11, 13, 8}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
-	public static final ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_AMETHYST = EnumHelper.addArmorMaterial("armor_material_amethyst", Reference.MOD_ID + ":omni", 20, 
-			new int[] {7, 10, 12, 6}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
-	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 18, 
-			new int[] {5, 9, 11, 5}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
-	public static final ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 2000, 8.0F, 3.f, 10);
-	public static final ArmorMaterial ARMOR_MATERIAL_TOPAZ = EnumHelper.addArmorMaterial("armor_material_topaz", Reference.MOD_ID + ":topaz", 16, 
-			new int[] {4, 7, 10, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+    public static final ToolMaterial MATERIAL_OMNI = EnumHelper.addToolMaterial("material_omni", 4, 2560, 12.0F, 6.0f, 20);
+    public static final ArmorMaterial ARMOR_MATERIAL_OMNI = EnumHelper.addArmorMaterial("armor_material_omni", Reference.MOD_ID + ":omni", 22, 
+            new int[] {8, 11, 13, 8}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+    public static final ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 3, 2048, 10.0F, 4.f, 12);
+    public static final ArmorMaterial ARMOR_MATERIAL_AMETHYST = EnumHelper.addArmorMaterial("armor_material_amethyst", Reference.MOD_ID + ":amethyst", 20, 
+            new int[] {7, 10, 12, 6}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
+    public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1881, 10.0F, 4.f, 12);
+    public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 18, 
+            new int[] {5, 9, 11, 5}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);	
+    public static final ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 1721, 10.0F, 4.f, 12);
+    public static final ArmorMaterial ARMOR_MATERIAL_TOPAZ = EnumHelper.addArmorMaterial("armor_material_topaz", Reference.MOD_ID + ":topaz", 16, 
+            new int[] {4, 7, 10, 4}, 12, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
 	
 	//items
 	public static final Item BREAD_CRUMB = new ItemBase("bread_crumb");
@@ -53,6 +53,8 @@ public class ModItems {
 	public static final Item AMETHYST_DUST = new ItemBase("amethyst_dust");
 	public static final Item OMNI_GEM = new ItemBase("omni_gem");
 	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
+	public static final Item MOB_SLIME = new ItemBase("mob_slime");
+	public static final Item CATALYST = new ItemBase("catalyst");
 	
 	//tools
 	public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);

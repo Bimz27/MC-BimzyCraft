@@ -29,4 +29,4 @@ public class RenderUndeadChicken extends RenderLiving<EntityUndeadChicken>
 		// TODO Auto-generated method stub
 		super.applyRotations(entityLiving, p_77043_2_, rotationYaw, partialTicks);
 	}
-}
+} 
