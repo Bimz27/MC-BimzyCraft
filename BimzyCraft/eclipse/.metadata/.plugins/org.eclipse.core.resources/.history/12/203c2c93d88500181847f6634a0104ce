@@ -57,7 +57,7 @@ public class RegistryHandler {
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		
 		EntityInit.registerEntities();
-		//RenderHandler.registerEntityRenders();
+		RenderHandler.registerEntityRenders();
 	}
 	
 	public static void InitRegistries()
