@@ -1,0 +1,12 @@
+package com.bimzy.bimzycraft.entity;
+
+import net.minecraft.world.World;
+
+public class EntityEarthGolem extends EntityGolem {
+
+	public EntityEarthGolem(World worldIn) {
+		super(worldIn);
+		setElement(element.Element.EARTH);
+	}
+
+}

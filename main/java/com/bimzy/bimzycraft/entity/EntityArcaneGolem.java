@@ -1,0 +1,14 @@
+package com.bimzy.bimzycraft.entity;
+
+import com.bimzy.bimzycraft.element.element.Element;
+
+import net.minecraft.world.World;
+
+public class EntityArcaneGolem extends EntityGolem {
+
+	public EntityArcaneGolem(World worldIn) {
+		super(worldIn);
+		setElement(Element.Arcane);
+	}
+
+}

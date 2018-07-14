@@ -21,3 +21,7 @@
 1531481719801	Delete element
 1531530121494	Delete element
 1531538004011	Rename type 'EntityInit'
+1531571002029	Rename type 'ModelEarthGolem'
+1531571892499	Rename type 'EntityEarthGolem'
+1531571905502	Rename type 'RenderEarthGolem'
+1531572465011	Rename field 'elementType'

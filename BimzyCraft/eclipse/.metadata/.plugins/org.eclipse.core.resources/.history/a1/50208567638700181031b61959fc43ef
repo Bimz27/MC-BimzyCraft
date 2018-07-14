@@ -1,0 +1,11 @@
+package com.bimzy.bimzycraft.element;
+
+public class element {
+	public enum Element 
+	{
+		Earth,
+		Ice,
+		Magma,
+		Arcane
+	}
+}

@@ -14,4 +14,7 @@ public class Reference {
 	
 	public static final int ENTITY_UNDEAD_CHICKEN = 11223344;
 	public static final int ENTITY_EARTH_GOLEM = 11223345;
+	public static final int ENTITY_ICE_GOLEM = 11223346;
+	public static final int ENTITY_MAGMA_GOLEM = 11223347;
+	public static final int ENTITY_ARCANE_GOLEM = 11223348;
 }

@@ -14,6 +14,11 @@
 	<list key="SearchScopeActionGroup.working_set">
 	</list>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="*" key="patterns"/>
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
 	</section>
 	<section name="SearchInDialog">
 		<item value="true" key="SearchInProjects"/>
@@ -55,6 +60,10 @@
 		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 	</section>
 	<section name="CallHierarchySearchScope">
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
