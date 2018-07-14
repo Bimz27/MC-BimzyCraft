@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemTool"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
-<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
 <fullyQualifiedTypeName name="com.google.common.collect.HashBasedTable"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Table"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -26,7 +19,6 @@
 <fullyQualifiedTypeName name="com.bimzy.bimzycraft.blocks.interactable.TileEntityCrusher"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.EntityRegistry"/>
 <fullyQualifiedTypeName name="com.bimzy.bimzycraft.Main"/>
-<fullyQualifiedTypeName name="com.bimzy.bimzycraft.init.EntityInit"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.passive.EntityChicken"/>
 <fullyQualifiedTypeName name="net.minecraft.nbt.NBTTagCompound"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityAgeable"/>
@@ -59,5 +51,13 @@
 <fullyQualifiedTypeName name="net.minecraft.util.ITickable"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.monster.EntityZombie"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.event.FMLServerStartingEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.network.simpleimpl.MessageContext"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="com.bimzy.bimzycraft.init.EntityInit"/>
 <fullyQualifiedTypeName name="com.bimzy.bimzycraft.util.handlers.RenderHandler"/>
 </qualifiedTypeNameHistroy>

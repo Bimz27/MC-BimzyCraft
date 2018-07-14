@@ -58,6 +58,7 @@ public class RegistryHandler {
 		
 		EntityInit.registerEntities();
 		//RenderHandler.registerEntityRenders();
+		Main.proxy.init();
 	}
 	
 	public static void InitRegistries()
