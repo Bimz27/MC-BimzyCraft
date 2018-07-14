@@ -8,6 +8,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.GlStateManager;
 
+@SideOnly(Side.CLIENT)
 public class ModelEarthGolem extends ModelBase {
     public ModelRenderer Body;
     public ModelRenderer Head;

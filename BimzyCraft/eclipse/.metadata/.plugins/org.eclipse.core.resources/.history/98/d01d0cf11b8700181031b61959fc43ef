@@ -12,14 +12,9 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderHandler {
 	
-	private static RenderHandler instance = new RenderHandler();
+	public static RenderHandler instance = this;
 	
-	public static RenderHandler instance()
-	{
-		return instance;
-	};
-	
-	public void registerEntityRenders()
+	public static void registerEntityRenders()
 	{
 		RenderingRegistry.registerEntityRenderingHandler(EntityUndeadChicken.class, new IRenderFactory<EntityUndeadChicken>()
 		{

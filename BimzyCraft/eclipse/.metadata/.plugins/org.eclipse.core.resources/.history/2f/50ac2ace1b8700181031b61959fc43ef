@@ -12,16 +12,11 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderHandler {
 	
-	private static RenderHandler instance = new RenderHandler();
+	public RenderHandler instance = this;
 	
-	public static RenderHandler instance()
+	public static void registerEntityRenders()
 	{
-		return instance;
-	};
-	
-	public void registerEntityRenders()
-	{
-		RenderingRegistry.registerEntityRenderingHandler(EntityUndeadChicken.class, new IRenderFactory<EntityUndeadChicken>()
+		RenderingRegistry.ins.registerEntityRenderingHandler(EntityUndeadChicken.class, new IRenderFactory<EntityUndeadChicken>()
 		{
 			@Override
 			public Render<? super EntityUndeadChicken> createRenderFor(RenderManager manager)

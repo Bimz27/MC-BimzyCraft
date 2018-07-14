@@ -12,16 +12,9 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderHandler {
 	
-	private static RenderHandler instance = new RenderHandler();
-	
-	public static RenderHandler instance()
+	public static void registerEntityRenders()
 	{
-		return instance;
-	};
-	
-	public void registerEntityRenders()
-	{
-		RenderingRegistry.registerEntityRenderingHandler(EntityUndeadChicken.class, new IRenderFactory<EntityUndeadChicken>()
+		RenderingRegistry.instance().registerEntityRenderingHandler(EntityUndeadChicken.class, new IRenderFactory<EntityUndeadChicken>()
 		{
 			@Override
 			public Render<? super EntityUndeadChicken> createRenderFor(RenderManager manager)
@@ -30,7 +23,7 @@ public class RenderHandler {
 			}
 		});
 		
-		RenderingRegistry.registerEntityRenderingHandler(EntityEarthGolem.class, new IRenderFactory<EntityEarthGolem>()
+		RenderingRegistry.instance().registerEntityRenderingHandler(EntityEarthGolem.class, new IRenderFactory<EntityEarthGolem>()
 		{
 			@Override
 			public Render<? super EntityEarthGolem> createRenderFor(RenderManager manager)
