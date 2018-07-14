@@ -1,7 +1,7 @@
 package com.bimzy.bimzycraft.util.handlers;
 
 import com.bimzy.bimzycraft.Main;
-import com.bimzy.bimzycraft.init.ModEntity;
+import com.bimzy.bimzycraft.init.EntityInit;
 import com.bimzy.bimzycraft.init.ModBlocks;
 import com.bimzy.bimzycraft.init.ModItems;
 import com.bimzy.bimzycraft.util.interfaces.IHasModel;
@@ -56,7 +56,7 @@ public class RegistryHandler {
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		
-		ModEntity.registerEntities();
+		EntityInit.registerEntities();
 		//RenderHandler.registerEntityRenders();
 		Main.proxy.init();
 	}
