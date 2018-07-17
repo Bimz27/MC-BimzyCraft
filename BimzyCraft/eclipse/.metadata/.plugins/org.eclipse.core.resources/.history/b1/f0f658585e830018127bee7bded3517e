@@ -1,7 +1,0 @@
-package com.bimzy.bimzycraft.entity;
-
-import net.minecraft.entity.passive.EntityChicken;
-
-public class EntityUndeadChicken extends EntityChicken {
-
-}

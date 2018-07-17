@@ -29,6 +29,9 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//materials
+	public static final ToolMaterial MATERIAL_ELEMENTAL = EnumHelper.addToolMaterial("material_elemental", 4, 3560, 15.0F, 10.0f, 25);
+    public static final ArmorMaterial ARMOR_MATERIAL_ELEMENTAL = EnumHelper.addArmorMaterial("armor_material_elemental", Reference.MOD_ID + ":elemental", 25,
+            new int[] {10, 14, 26, 10}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
     public static final ToolMaterial MATERIAL_OMNI = EnumHelper.addToolMaterial("material_omni", 4, 2560, 12.0F, 6.0f, 20);
     public static final ArmorMaterial ARMOR_MATERIAL_OMNI = EnumHelper.addArmorMaterial("armor_material_omni", Reference.MOD_ID + ":omni", 22, 
             new int[] {8, 11, 13, 8}, 20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0f);
@@ -56,6 +59,25 @@ public class ModItems {
 	public static final Item MOB_SLIME = new ItemBase("mob_slime");
 	public static final Item CATALYST = new ItemBase("catalyst");
 	
+	//elemental
+	public static final Item EARTH_ESSENCE = new ItemBase("earth_essence");
+	public static final Item EARTH_SHARD = new ItemBase("earth_shard");
+	public static final Item EARTH_FRAGMENT = new ItemBase("earth_fragment");
+	public static final Item ICE_ESSENCE = new ItemBase("ice_essence");
+	public static final Item ICE_SHARD = new ItemBase("ice_shard");
+	public static final Item ICE_FRAGMENT = new ItemBase("ice_fragment");
+	public static final Item MAGMA_ESSENCE = new ItemBase("magma_essence");
+	public static final Item MAGMA_SHARD = new ItemBase("magma_shard");
+	public static final Item MAGMA_FRAGMENT = new ItemBase("magma_fragment");
+	public static final Item ARCANE_ESSENCE = new ItemBase("arcane_essence");
+	public static final Item ARCANE_SHARD = new ItemBase("arcane_shard");
+	public static final Item ARCANE_FRAGMENT = new ItemBase("arcane_fragment");
+	public static final Item MAGMA_BLADE = new ItemBase("magma_blade");
+	public static final Item ICE_GUARD = new ItemBase("ice_guard");
+	public static final Item EARTH_GRIP = new ItemBase("earth_grip");
+	public static final Item ARCANE_POMMEL = new ItemBase("arcane_pommel");
+	public static final Item ELEMENTAL_HILT = new ItemBase("elemental_hilt");
+	
 	//tools
 	public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
 	public static final ItemSpade RUBY_SPADE = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
@@ -77,6 +99,7 @@ public class ModItems {
 	public static final ItemPickaxe OMNI_PICKAXE = new ToolPickaxe("omni_pickaxe", MATERIAL_OMNI);
 	public static final ItemAxe OMNI_AXE = new ToolAxe("omni_axe", MATERIAL_OMNI);
 	public static final ItemHoe OMNI_HOE = new ToolHoe("omni_hoe", MATERIAL_OMNI);
+	public static final ToolSword ELEMENTAL_SWORD = new ToolSword("elemental_sword", MATERIAL_ELEMENTAL);
 	
 	//armor
 	public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);

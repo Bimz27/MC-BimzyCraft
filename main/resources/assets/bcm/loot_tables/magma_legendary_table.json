@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+        	"name": "magma_legendary_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bcm:magma_blade"
+                }
+            ]
+        }
+    ]
+}

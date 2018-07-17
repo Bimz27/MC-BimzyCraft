@@ -1,0 +1,26 @@
+{
+    "pools": [
+    	{
+        	"name": "entity_undead_chicken",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 65,
+                    "name": "bcm:mob_slime_table"
+                }
+            ]
+        },
+        {
+        	"name": "undead_chicken_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:rotten_flesh"
+                }
+            ]
+        }
+    ]
+}

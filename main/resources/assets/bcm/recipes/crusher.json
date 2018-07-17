@@ -4,7 +4,7 @@
     "pattern":
     [
         "TSR",
-        "S S",
+        "SCS",
         "ASD"
     ],
     
@@ -29,6 +29,10 @@
         "S":
         {
             "item": "bcm:steel_ingot"
+        },
+        "C":
+        {
+            "item": "bcm:catalyst"
         }
     },
     

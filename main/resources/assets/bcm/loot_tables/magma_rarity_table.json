@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+        	"name": "magma_rarity_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 27,
+                    "name": "bcm:magma_common_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 9,
+                    "name": "bcm:magma_rare_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "bcm:magma_mythic_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "bcm:magma_legendary_table"
+                }
+            ]
+        }
+    ]
+}

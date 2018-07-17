@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+        	"name": "entity_ice_golem",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 40,
+                    "name": "bcm:ice_rarity_table"
+                }
+            ]
+        },
+        {
+        	"name": "entity_ice_golem",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 40,
+                    "name": "bcm:mob_slime_table"
+                }
+            ]
+        },
+        {
+        	"name": "entity_ice_golem",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 30,
+                    "name": "bcm:rarity_table"
+                }
+            ]
+        }
+    ]
+}

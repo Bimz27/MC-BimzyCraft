@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B",
+        "H"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "bcm:magma_blade"
+        },
+        
+        "H":
+        {
+            "item": "bcm:elemental_hilt"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:elemental_sword",
+        "count": 1
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    	"I  ",
+        " E ",
+        "  A"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "bcm:ice_guard"
+        },
+        
+        "E":
+        {
+            "item": "bcm:earth_grip"
+        },
+        
+        "A":
+        {
+            "item": "bcm:arcane_pommel"
+        }
+    },
+    
+    "result":
+    {
+        "item": "bcm:elemental_hilt",
+        "count": 1
+    }
+}

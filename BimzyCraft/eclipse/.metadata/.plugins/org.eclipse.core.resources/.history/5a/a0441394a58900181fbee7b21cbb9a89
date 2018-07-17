@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+        	"name": "arcane_rarity_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 27,
+                    "name": "bcm:arcane_common_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 9,
+                    "name": "bcm:arcane_rare_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "bcm:arcane_mythic_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "bcm:arcane_legendary_table"
+                }
+            ]
+        }
+    ]
+}

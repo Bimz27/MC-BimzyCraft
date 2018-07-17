@@ -1,0 +1,72 @@
+//Items
+item.bread_crumb.name=Bread Crumb
+item.diamond_dust.name=Diamond Dust
+item.ruby.name=Ruby
+item.ruby_dust.name=Ruby Dust
+item.ruby_sword.name=Ruby Sword
+item.ruby_spade.name=Ruby Shovel
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_axe.name=Ruby Axe
+item.ruby_hoe.name=Ruby Hoe
+item.topaz.name=Topaz
+item.topaz_dust.name=Topaz Dust
+item.topaz_sword.name=Topaz Sword
+item.topaz_spade.name=Topaz Shovel
+item.topaz_pickaxe.name=Topaz Pickaxe
+item.topaz_axe.name=Topaz Axe
+item.topaz_hoe.name=Topaz Hoe
+item.amethyst.name=Amethyst
+item.amethyst_dust.name=Amethyst Dust
+item.amethyst_sword.name=Amethyst Sword
+item.amethyst_spade.name=Amethyst Shovel
+item.amethyst_pickaxe.name=Amethyst Pickaxe
+item.amethyst_axe.name=Amethyst Axe
+item.amethyst_hoe.name=Amethyst Hoe
+item.omni_gem.name=Omni Gem
+item.omni_sword.name=Omni Sword
+item.omni_shovel.name=Omni Shovel
+item.omni_pickaxe.name=Omni Pickaxe
+item.omni_axe.name=Omni Axe
+item.omni_hoe.name=Omni Hoe
+item.steel_ingot.name=Steel Ingot
+item.mob_slime.name=Mob Slime
+item.catalyst.name=Catalyst
+
+//elemental
+item.
+
+//Armor
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+item.amethyst_helmet.name=Amethyst Helmet
+item.amethyst_chestplate.name=Amethyst Chestplate
+item.amethyst_leggings.name=Amethyst Leggings
+item.amethyst_boots.name=Amethyst Boots
+item.topaz_helmet.name=Topaz Helmet
+item.topaz_chestplate.name=Topaz Chestplate
+item.topaz_leggings.name=Topaz Leggings
+item.topaz_boots.name=Topaz Boots
+item.omni_helmet.name=Omni Helmet
+item.omni_chestplate.name=Omni Chestplate
+item.omni_leggings.name=Omni Leggings
+item.omni_boots.name=Omni Boots
+
+//Blocks
+tile.ruby_block.name=Ruby Block
+tile.ruby_ore_block.name=Ruby Ore
+tile.topaz_block.name=Topaz Block
+tile.topaz_ore_block.name=Topaz Ore
+tile.amethyst_block.name=Amethyst Block
+tile.amethyst_ore_block.name=Amethyst Ore
+tile.steel_block.name=Steel Block
+tile.crusher_block.name=Crusher
+tile.alchemist_table_block.name=Alchemist's Table
+
+//Entities
+entity.undead_chicken.name=Undead Chicken
+entity.earth_golem.name=Earth Golem
+entity.ice_golem.name=Ice Golem
+entity.magma_golem.name=Magma Golem
+entity.arcane_golem.name=Arcane Golem

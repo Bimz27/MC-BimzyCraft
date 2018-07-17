@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+        	"name": "ice_rarity_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 27,
+                    "name": "bcm:ice_common_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 9,
+                    "name": "bcm:ice_rare_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "bcm:ice_mythic_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "bcm:ice_legendary_table"
+                }
+            ]
+        }
+    ]
+}

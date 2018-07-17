@@ -56,7 +56,19 @@ public class EntityGolem extends EntityZombie {
 	
 	@Override
 	protected ResourceLocation getLootTable() {
-		return LootTableHandler.UNDEAD_CHICKEN;
+		switch(element)
+		{
+			case Earth:
+				return LootTableHandler.EARTH_GOLEM;
+			case Ice:
+				return LootTableHandler.ICE_GOLEM;
+			case Magma:
+				return LootTableHandler.MAGMA_GOLEM;
+			case Arcane:
+				return LootTableHandler.ARCANE_GOLEM;
+		}
+		
+		return LootTableHandler.EARTH_GOLEM;
 	}
 	
 	@Override

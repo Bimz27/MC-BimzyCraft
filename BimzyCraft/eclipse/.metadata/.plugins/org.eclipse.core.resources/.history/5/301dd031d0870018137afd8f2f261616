@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 70,
+                    "name": "bcm:common_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 23,
+                    "name": "bcm:rare_table"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "bcm:mythic_table"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bcm:legendary_table"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+        	"name": "earth_rarity_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 27,
+                    "name": "bcm:earth_common_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 9,
+                    "name": "bcm:earth_rare_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "bcm:earth_mythic_table"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "bcm:earth_legendary_table"
+                }
+            ]
+        }
+    ]
+}

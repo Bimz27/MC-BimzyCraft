@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+        	"name": "arcane_legendary_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bcm:arcane_pommel"
+                }
+            ]
+        }
+    ]
+}

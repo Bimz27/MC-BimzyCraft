@@ -1,0 +1,16 @@
+ package com.bimzy.bimzycraft.util.handlers;
+
+import com.bimzy.bimzycraft.util.Reference;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.storage.loot.LootTableList;
+
+public class LootTableHandler {
+	
+	public static final ResourceLocation UNDEAD_CHICKEN = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "undead_chicken_table"));
+	public static final ResourceLocation EARTH_GOLEM = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "earth_golem_table"));
+	public static final ResourceLocation ICE_GOLEM = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "ice_golem_table"));
+	public static final ResourceLocation MAGMA_GOLEM = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "magma_golem_table"));
+	public static final ResourceLocation ARCANE_GOLEM = LootTableList.register(new ResourceLocation(Reference.MOD_ID, "arcane_golem_table"));w
+	
+}

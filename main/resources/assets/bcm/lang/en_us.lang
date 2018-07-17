@@ -32,6 +32,26 @@ item.steel_ingot.name=Steel Ingot
 item.mob_slime.name=Mob Slime
 item.catalyst.name=Catalyst
 
+//elemental
+item.earth_essence.name=Earth Essence
+item.earth_shard.name=Earth Shard
+item.earth_fragment.name=Earth Fragment
+item.ice_essence.name=Ice Essence
+item.ice_shard.name=Ice Shard
+item.ice_fragment.name=Ice Fragment
+item.magma_essence.name=Magma Essence
+item.magma_shard.name=Magma Shard
+item.magma_fragment.name=Magma Fragment
+item.arcane_essence.name=Arcane Essence
+item.arcane_shard.name=Arcane Shard
+item.arcane_fragment.name=Arcane Fragment
+item.magma_blade.name=Magma Blade
+item.ice_guard.name=Ice Guard
+item.earth_grip.name=Earth Grip
+item.arcane_pommel.name=Arcane Pommel
+item.elemental_hilt.name=Elemental Hilt
+item.elemental_sword.name=Elemental Sword
+
 //Armor
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
@@ -64,3 +84,6 @@ tile.alchemist_table_block.name=Alchemist's Table
 //Entities
 entity.undead_chicken.name=Undead Chicken
 entity.earth_golem.name=Earth Golem
+entity.ice_golem.name=Ice Golem
+entity.magma_golem.name=Magma Golem
+entity.arcane_golem.name=Arcane Golem
