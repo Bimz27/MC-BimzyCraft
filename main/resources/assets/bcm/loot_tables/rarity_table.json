@@ -15,12 +15,12 @@
                     "name": "bcm:rare_table"
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 3,
                     "name": "bcm:mythic_table"
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 1,
                     "name": "bcm:legendary_table"
                 }

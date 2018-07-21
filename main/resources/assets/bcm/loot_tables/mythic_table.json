@@ -6,8 +6,23 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "bcm:catalyst"
+                    "weight": 25,
+                    "name": "bcm:ruby"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "bcm:topaz"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "bcm:amethyst"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:diamond"
                 }
             ]
         }

@@ -23,14 +23,12 @@ public class RenderUndeadChicken extends RenderLiving<EntityUndeadChicken>
 	
 	@Override
 	protected ResourceLocation getEntityTexture(EntityUndeadChicken entity) {
-		// TODO Auto-generated method stub
 		return TEXTURES;
 	}
 	
 	@Override
 	protected void applyRotations(EntityUndeadChicken entityLiving, float p_77043_2_, float rotationYaw,
 			float partialTicks) {
-		// TODO Auto-generated method stub
 		super.applyRotations(entityLiving, p_77043_2_, rotationYaw, partialTicks);
 	}
 } 

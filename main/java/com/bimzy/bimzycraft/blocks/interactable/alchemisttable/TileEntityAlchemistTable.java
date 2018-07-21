@@ -3,6 +3,7 @@ package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -11,10 +12,11 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
+import scala.collection.concurrent.Debug;
 
 public class TileEntityAlchemistTable extends TileEntity implements IInventory, ITickable {
 	
-	private NonNullList<ItemStack> inventory = NonNullList.<ItemStack>withSize(10, ItemStack.EMPTY);
+	private NonNullList<ItemStack> inventory = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
 	private String customName;
 	
 	@Override
@@ -85,6 +87,11 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 		
 	}
 	
+	public static boolean isItemConsumable(ItemStack item)
+	{
+		return item.getUnlocalizedName() == "mob_slime";
+	}
+	
 	@Override
 	public void readFromNBT(NBTTagCompound compound)
 	{
@@ -120,7 +127,14 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 	@Override
 	public boolean isItemValidForSlot(int index, ItemStack stack) 
 	{
-		return (index != 9);
+		if(index == 10) return false;
+		
+		if(index < 9) return true;
+		
+		if(index == 9 && isItemConsumable(stack)) return true;
+		else if(index == 9) return false;
+		
+		return true;
 	}
 	
 	public String getGuiID() 
@@ -153,9 +167,13 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 	}
 
 	@Override
-	public void setInventorySlotContents(int index, ItemStack stack) {
-		// TODO Auto-generated method stub
+	public void setInventorySlotContents(int index, ItemStack stack) 
+	{
+		ItemStack itemstack = (ItemStack)this.inventory.get(index);
+		boolean flag = !stack.isEmpty() && stack.isItemEqual(itemstack) && ItemStack.areItemStackTagsEqual(stack, itemstack);
+		this.inventory.set(index, stack);
 		
+		if(stack.getCount() > this.getInventoryStackLimit()) stack.setCount(this.getInventoryStackLimit());
 	}
 	
 }

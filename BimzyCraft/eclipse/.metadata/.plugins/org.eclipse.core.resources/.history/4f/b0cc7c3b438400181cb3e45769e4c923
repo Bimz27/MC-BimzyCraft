@@ -1,8 +1,0 @@
-package com.bimzy.bimzycraft.blocks.interactable;
-
-import net.minecraft.inventory.Container;
-
-public class ContainerAlchemistTable extends Container 
-{
-
-}

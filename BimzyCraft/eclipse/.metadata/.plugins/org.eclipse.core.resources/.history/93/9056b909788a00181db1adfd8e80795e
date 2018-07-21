@@ -1,0 +1,5 @@
+package com.bimzy.bimzycraft.blocks.interactable.alchemisttable.slots;
+
+public class SlotAlchemistTableOutput {
+
+}

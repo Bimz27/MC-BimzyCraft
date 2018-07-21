@@ -1,0 +1,64 @@
+package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
+
+import java.util.Map;
+import java.util.Map.Entry;
+
+import com.bimzy.bimzycraft.init.ModItems;
+import com.google.common.collect.Maps;
+
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+
+public class AlchemistTableRecipes {
+	private static final AlchemistTableRecipes INSTANCE = new AlchemistTableRecipes();
+	private final Map<ItemStack[], ItemStack> craftingList = Maps.<ItemStack[], ItemStack>newHashMap();
+	private final Map<ItemStack, Float> experienceList = Maps.<ItemStack, Float>newHashMap();
+	
+	public static AlchemistTableRecipes getInstance()
+	{
+		return INSTANCE;
+	}
+	
+	private AlchemistTableRecipes() 
+	{
+		//CrusherRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(ModItems.AMETHYST_DUST), 5.0F);
+	}
+
+	public void addAlchemistTableRecipe(ItemStack[] inputs, ItemStack result, float experience) 
+	{
+		if(getAlchemistTableResult(inputs) != ItemStack.EMPTY) return;
+		this.craftingList.put(inputs, result);
+		this.experienceList.put(result, Float.valueOf(experience));
+	}
+	
+	public ItemStack getAlchemistTableResult(ItemStack[] inputs) 
+	{
+		for (Entry<ItemStack[], ItemStack> entry : this.craftingList.entrySet())
+        {
+			for ()
+			{
+	            if (this.compareItemStacks(inputs, entry.getKey()))
+	            {
+	                return entry.getValue();
+	            }
+			}
+        }
+
+        return ItemStack.EMPTY;
+	}
+	
+	private boolean compareItemStacks(ItemStack stack1, ItemStack stack2)
+	{
+		return stack2.getItem() == stack1.getItem() && (stack2.getMetadata() == 32767 || stack2.getMetadata() == stack1.getMetadata());
+	}
+	
+	public Map<ItemStack[], ItemStack> getCraftingList() 
+	{
+		return this.craftingList;
+	}
+	
+	public Map<ItemStack, Float> getExperienceList() 
+	{
+		return this.experienceList;
+	}
+}

@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-        	"name": "mythic_table",
+        	"name": "legendary_table",
             "rolls": 1,
             "entries": [
                 {

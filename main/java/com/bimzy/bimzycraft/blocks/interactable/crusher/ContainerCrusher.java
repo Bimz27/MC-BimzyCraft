@@ -110,14 +110,6 @@ public class ContainerCrusher extends Container
 					{
 						if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
 					}
-					else if(TileEntityCrusher.isItemFuel(stack1))
-					{
-						if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
-					}
-					else if(TileEntityCrusher.isItemFuel(stack1))
-					{
-						if(!this.mergeItemStack(stack1, 2, 3, false)) return ItemStack.EMPTY;
-					}
 					else if(index >= 4 && index < 31)
 					{
 						if(!this.mergeItemStack(stack1, 31, 40, false)) return ItemStack.EMPTY;

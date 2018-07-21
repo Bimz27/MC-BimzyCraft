@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+        	"name": "mythic_table",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "bcm:catalyst"
+                }
+            ]
+        }
+    ]
+}

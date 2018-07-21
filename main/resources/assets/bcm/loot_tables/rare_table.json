@@ -6,8 +6,23 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "bcm:catalyst"
+                    "weight": 25,
+                    "name": "minecraft:coal"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:iron_ingot"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:stone_sword"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:stone_pickaxe"
                 }
             ]
         }

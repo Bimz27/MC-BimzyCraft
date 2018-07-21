@@ -6,8 +6,23 @@
             "entries": [
                 {
                     "type": "item",
-                    "weight": 1,
-                    "name": "bcm:catalyst"
+                    "weight": 25,
+                    "name": "minecraft:cobblestone"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:wood"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:stone"
+                },
+                {
+                    "type": "item",
+                    "weight": 25,
+                    "name": "minecraft:wooden_sword"
                 }
             ]
         }
