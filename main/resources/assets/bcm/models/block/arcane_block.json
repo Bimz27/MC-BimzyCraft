@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+    "textures": {
+		"particle": "bcm:blocks/arcane_bottom",
+		"up": "bcm:blocks/arcane_top",
+		"down": "bcm:blocks/arcane_bottom",
+		"north": "bcm:blocks/arcane_side",
+		"east": "bcm:blocks/arcane_side",
+		"south": "bcm:blocks/arcane_side",
+		"west": "bcm:blocks/arcane_side"
+	}
+}

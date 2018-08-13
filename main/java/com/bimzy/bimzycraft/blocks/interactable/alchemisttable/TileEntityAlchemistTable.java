@@ -3,7 +3,6 @@ package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -12,7 +11,6 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
-import scala.collection.concurrent.Debug;
 
 public class TileEntityAlchemistTable extends TileEntity implements IInventory, ITickable {
 	
@@ -84,7 +82,7 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 	
 	public void update() 
 	{
-		
+		checkForRecipe();
 	}
 	
 	public static boolean isItemConsumable(ItemStack item)
@@ -127,7 +125,7 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 	@Override
 	public boolean isItemValidForSlot(int index, ItemStack stack) 
 	{
-		if(index == 10) return false;
+		//if(index == 10) return false;
 		
 		if(index < 9) return true;
 		
@@ -174,6 +172,30 @@ public class TileEntityAlchemistTable extends TileEntity implements IInventory, 
 		this.inventory.set(index, stack);
 		
 		if(stack.getCount() > this.getInventoryStackLimit()) stack.setCount(this.getInventoryStackLimit());
+		
+		if(index == inventory.size() - 1)
+		{
+			for(int i = 0; i < inventory.size() - 1; i++)
+			{
+				inventory.get(i).setCount(inventory.get(i).getCount() - 1);
+			}
+		}
+	}
+	
+	private void checkForRecipe()
+	{
+		ItemStack[] itemStack = new ItemStack[inventory.size()];
+		for	(int i = 0; i < itemStack.length; i++)
+		{
+			itemStack[i] = inventory.get(i);
+		}
+		
+		ItemStack resultItem = AlchemistTableRecipes.getInstance().getAlchemistTableResult(itemStack);
+		
+		if(resultItem != null)
+		{
+			setInventorySlotContents(inventory.size() - 1, resultItem);
+		}
 	}
 	
 }

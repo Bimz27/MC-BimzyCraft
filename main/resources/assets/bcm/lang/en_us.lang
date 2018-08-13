@@ -1,3 +1,6 @@
+//generators/world types
+generator.Magical=Magical
+
 //Items
 item.bread_crumb.name=Bread Crumb
 item.diamond_dust.name=Diamond Dust
@@ -80,6 +83,8 @@ tile.amethyst_ore_block.name=Amethyst Ore
 tile.steel_block.name=Steel Block
 tile.crusher_block.name=Crusher
 tile.alchemist_table_block.name=Alchemist's Table
+tile.magma_block.name=Magma Block
+tile.arcane_block.name=Arcane Block
 
 //Entities
 entity.undead_chicken.name=Undead Chicken

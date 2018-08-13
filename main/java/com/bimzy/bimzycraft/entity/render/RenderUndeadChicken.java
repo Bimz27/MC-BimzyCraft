@@ -4,7 +4,6 @@ import com.bimzy.bimzycraft.entity.EntityUndeadChicken;
 import com.bimzy.bimzycraft.entity.model.ModelUndeadChicken;
 import com.bimzy.bimzycraft.util.Reference;
 
-import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;

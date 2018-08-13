@@ -1,23 +1,12 @@
 package com.bimzy.bimzycraft.blocks.interactable.alchemisttable;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-
-import com.bimzy.bimzycraft.blocks.interactable.alchemisttable.slots.SlotAlchemistTableConsumable;
 import com.bimzy.bimzycraft.blocks.interactable.alchemisttable.slots.SlotAlchemistTableOutput;
-import com.bimzy.bimzycraft.blocks.interactable.crusher.CrusherRecipes;
-import com.bimzy.bimzycraft.blocks.interactable.crusher.TileEntityCrusher;
-import com.bimzy.bimzycraft.blocks.interactable.crusher.slots.SlotCrusherFuel;
-import com.bimzy.bimzycraft.blocks.interactable.crusher.slots.SlotCrusherOutput;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IContainerListener;
 import net.minecraft.inventory.Slot;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class ContainerAlchemistTable extends Container

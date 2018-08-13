@@ -21,7 +21,11 @@ public class AlchemistTableRecipes {
 	
 	private AlchemistTableRecipes() 
 	{
-		//CrusherRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(ModItems.AMETHYST_DUST), 5.0F);
+		addAlchemistTableRecipe(new ItemStack[] {new ItemStack(ModItems.AMETHYST_DUST), 
+												 new ItemStack(ModItems.DIAMOND_DUST),
+												 new ItemStack(ModItems.TOPAZ_DUST),
+												 new ItemStack(ModItems.RUBY_DUST)}, 
+				new ItemStack(ModItems.OMNI_GEM), 5.0F);
 	}
 
 	public void addAlchemistTableRecipe(ItemStack[] inputs, ItemStack result, float experience) 
@@ -35,21 +39,32 @@ public class AlchemistTableRecipes {
 	{
 		for (Entry<ItemStack[], ItemStack> entry : this.craftingList.entrySet())
         {
-			//for ()
-			//{
-	            //if (this.compareItemStacks(inputs, entry.getKey()))
-	            //{
-	            //    return entry.getValue();
-	            //}
-			//}
+            if (this.compareItemStacks(inputs, entry.getKey()))
+            {
+                return entry.getValue();
+            }
         }
 
         return ItemStack.EMPTY;
 	}
 	
-	private boolean compareItemStacks(ItemStack stack1, ItemStack stack2)
+	private boolean compareItemStacks(ItemStack[] stack1, ItemStack[] stack2)
 	{
-		return stack2.getItem() == stack1.getItem() && (stack2.getMetadata() == 32767 || stack2.getMetadata() == stack1.getMetadata());
+		int counter = 0;
+		
+		for (ItemStack item2 : stack2)
+		{
+			for(ItemStack item1 : stack1)
+			{
+				if(item1.getItem() == item2.getItem())
+				{
+					counter++;
+					break;
+				}
+			}
+		}
+		
+		return (counter == stack2.length);
 	}
 	
 	public Map<ItemStack[], ItemStack> getCraftingList() 

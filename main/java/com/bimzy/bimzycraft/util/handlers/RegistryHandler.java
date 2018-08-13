@@ -2,13 +2,16 @@ package com.bimzy.bimzycraft.util.handlers;
 
 import com.bimzy.bimzycraft.Main;
 import com.bimzy.bimzycraft.init.ModEntity;
+import com.bimzy.bimzycraft.init.ModBiomes;
 import com.bimzy.bimzycraft.init.ModBlocks;
 import com.bimzy.bimzycraft.init.ModItems;
 import com.bimzy.bimzycraft.util.interfaces.IHasModel;
 import com.bimzy.bimzycraft.world.gen.WorldGenCustomOres;
+import com.bimzy.bimzycraft.world.types.WorldTypeMagical;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.world.WorldType;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -56,6 +59,8 @@ public class RegistryHandler {
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 		
+		ModBiomes.registerBiomes();
+		
 		ModEntity.registerEntities();
 		//RenderHandler.registerEntityRenders();
 		Main.proxy.init();
@@ -64,5 +69,10 @@ public class RegistryHandler {
 	public static void InitRegistries()
 	{
 		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
+	}
+	
+	public static void postInitRegistries()
+	{
+		WorldType MAGICAL = new WorldTypeMagical();
 	}
 }

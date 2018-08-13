@@ -3,6 +3,7 @@ package com.bimzy.bimzycraft.entity;
 import com.bimzy.bimzycraft.element.element.Element;
 import com.bimzy.bimzycraft.util.handlers.LootTableHandler;
 
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIMoveTowardsRestriction;
@@ -10,6 +11,7 @@ import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIWanderAvoidWater;
 import net.minecraft.entity.ai.EntityAIWatchClosest;
 import net.minecraft.entity.ai.EntityAIZombieAttack;
+import net.minecraft.entity.monster.EntityMob;	
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
@@ -33,6 +35,12 @@ public class EntityGolem extends EntityZombie {
 	
 	public EntityGolem(World worldIn) {
 		super(worldIn);
+	}
+	
+	@Override
+	protected boolean shouldBurnInDay() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 	
 	@Override

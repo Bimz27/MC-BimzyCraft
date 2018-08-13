@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.bimzy.bimzycraft.blocks.AmethystBlock;
 import com.bimzy.bimzycraft.blocks.AmethystOreBlock;
+import com.bimzy.bimzycraft.blocks.ArcaneBlock;
+import com.bimzy.bimzycraft.blocks.MagmaBlock;
 import com.bimzy.bimzycraft.blocks.RubyBlock;
 import com.bimzy.bimzycraft.blocks.RubyOreBlock;
 import com.bimzy.bimzycraft.blocks.SteelBlock;
@@ -27,6 +29,10 @@ public class ModBlocks {
 	public static final Block AMETHYST_BLOCK = new AmethystBlock("amethyst_block", Material.IRON);
 	public static final Block AMETHYST_ORE_BLOCK = new AmethystOreBlock("amethyst_ore_block", Material.IRON);
 	public static final Block STEEL_BLOCK = new SteelBlock("steel_block", Material.IRON);
+	
+	//biome blocks
+	public static final Block MAGMA_BLOCK = new MagmaBlock("magma_block", Material.IRON);
+	public static final Block ARCANE_BLOCK = new ArcaneBlock("arcane_block", Material.IRON);
 	
 	//custom item blocks
 	public static final Block CRUSHER_BLOCK = new CrusherBlock("crusher_block", Material.IRON);

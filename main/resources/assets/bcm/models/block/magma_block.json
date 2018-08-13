@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+    "textures": {
+		"particle": "bcm:blocks/magma_bottom",
+		"up": "bcm:blocks/magma_top",
+		"down": "bcm:blocks/magma_bottom",
+		"north": "bcm:blocks/magma_side",
+		"east": "bcm:blocks/magma_side",
+		"south": "bcm:blocks/magma_side",
+		"west": "bcm:blocks/magma_side"
+	}
+}
